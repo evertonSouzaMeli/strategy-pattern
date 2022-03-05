@@ -1,5 +1,7 @@
-import br.com.fiap.service.Frete
+import br.com.fiap.service.frete.Frete
 import br.com.fiap.service.TipoFrete
+import br.com.fiap.service.frete.Normal
+import br.com.fiap.service.frete.Sedex
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -12,7 +14,9 @@ fun main(args: Array<String>) {
 
     println("Qual o tipo de frete: (1) Normal, (2) Sedex")
     var opcao = sc.nextInt()
+    var tipoFrete = TipoFrete.values()[opcao - 1]
 
-    val frete: Frete = Frete(TipoFrete.values()[opcao - 1])
-    println("O valor do frete:  R$${frete.calculaPreco(distancia)}")
+    var frete: Frete? = tipoFrete.obterFrete()
+
+    println("O valor do frete:  R$${frete?.calculaPreco(distancia)}")
 }

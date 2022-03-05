@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4378067b-10b9-4420-b618-781218fa2f9f" name="Changes" comment="" />
+    <list default="true" id="c94fc6bf-300f-4e9a-943d-31ae6e2bbae6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/strategy-pattern/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/strategy-pattern/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/strategy-pattern/br/com/fiap/service/Frete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/strategy-pattern/br/com/fiap/service/TipoFrete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/strategy-pattern/br/com/fiap/service/TipoFrete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/fiap/service/Frete.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/fiap/service/frete/Frete.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/fiap/service/TipoFrete.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/fiap/service/TipoFrete.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -35,6 +43,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.fiap.service.frete" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
@@ -64,5 +77,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
